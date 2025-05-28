@@ -1,0 +1,190 @@
+/* This stylesheet is currently not in linked to the HTML flie, it is a duplicate and I purposefully left it here 
+for any one who wishe to go through the unminified code. */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+/* NAVIGATION BAR */
+
+.nav-bar {
+    background-color: #000000;
+    max-height: 88px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+}
+
+.nav-logo, .nav-buttons {
+    color: #FFFFFF;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.search-box-1, .btn-1, .btn-2 {
+    border: 1px solid ;
+    border-radius: 7px;
+    padding: 10px 20px;
+    height: 50px;
+}
+
+input::placeholder {
+    font-size: 20px;
+}
+
+.nav-achor-tag {
+    color: #FFFFFF;
+    
+}
+
+a, ul {
+    list-style: none;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.nav-btn {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-1 {
+    background-color: #343A40;
+    border: 1px solid #FFFFFF;
+    border-radius: 7px;
+    transition: 0.5s;
+    transform: scale(1.05, 1.05);
+}
+
+.btn-1:hover, .btn-1:active {
+    color: #000000;
+    background-color: #212529;
+    border: transparent;
+}
+
+.btn-2 {
+    color: #FFFFFF;
+    background-color: #DD2EDD;
+    padding: 15px 40px;
+    border: 0;
+    transition: 0.5s;
+    transform: scale(1.05, 1.05);
+    
+}
+
+
+.btn-2:hover, .btn-2:active {
+    color: #000000;
+    background-color: #862e9c;
+    box-shadow: 0px 1px 4px #FFFFFF;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+/* HERO SECTION */
+
+.hero-sec {
+    background-color: #B2B5E0;
+    max-height: 500px;
+    width: 100%;
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.search-box-2 {
+    padding: 25px 50px;
+    border: 1px solid;
+    border-radius: 6px;
+}
+
+.search-box-2:hover {
+    border-color: #DD2EDD;
+}
+
+
+.grid-container {
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 5px;
+    padding: 5px;
+    align-items: center;
+}
+
+.grid-item {
+    height: 100px;
+    display: flex;
+    flex-direction: row; 
+    gap: 5px;
+    align-items: center; 
+    justify-content: center;
+}
+
+.feat-img-container, p, h3 {
+    text-align: center;
+    font-size: 25px;
+}
+h2 {
+    margin-bottom: 10px;
+}
+
+.feat-img {
+    max-width: 100%;
+    height: auto;
+    max-height: 75px; 
+}
+
+footer {
+    height: 300px;
+    background-color: #000000;
+}
+
+.footer-links {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+    margin: 0 auto;
+    position: relative;
+
+}
+.footer-tags {
+    display: inline-block;
+}
+
+.f-tg {
+    display: block;
+    color: #FFFFFF;
+    font-size: 16px;
+
+}
+
+.footer-copyright {
+    position: absolute;
+    margin-right: 40px;
+    bottom: 0;
+    right: 0;
+}
+.copy-prg {
+    font-size: 17px;
+} 
+
+.f-tg:hover, .feat-at:hover, .logo-text:hover {
+    text-decoration: underline;
+    cursor:pointer;
+}
